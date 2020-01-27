@@ -1,8 +1,26 @@
 /*BEGIN PS4 Controller Styling https://imgur.com/a/8X1b1w0 */
 .controller.edit {
     background: url(https://i.imgur.com/J6eKYbO.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
 }
 
+.edit.disconnected {
+    background: url(ps4-assets/disconnected.svgz);
+}
+
+.edit.disconnected div {
+    display: none;
+}
+
+.edit .triggers {
+    width: 588px;
+    height: 90px;
+    position: absolute;
+    left: 109px;
+}
 
 .edit .trigger {
     width: 99px;
@@ -60,6 +78,18 @@
 
 .edit .touchpad.pressed {
     background: url(https://i.imgur.com/hl7qtYo.png) no-repeat center;
+}
+
+.edit .meta {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 382px;
+    bottom: 216px;
+}
+
+.edit .meta.pressed {
+    background: url(ps4-assets/meta.svgz) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -180,7 +210,7 @@ background-position: 0 -70px;
     background-position-x: -192px;
 }
 
-.ed .stick.left {
+.edit .stick.left {
     top: 0;
     left: 0;
 }
