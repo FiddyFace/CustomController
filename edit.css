@@ -1,13 +1,13 @@
 /*BEGIN PS4 Controller Styling https://imgur.com/a/8X1b1w0 */
 .controller.edit {
-    background: url(https://i.imgur.com/J6eKYbO.png);
+    background: url(assets/base.png);
 }
 
 
 .edit .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://i.imgur.com/aPwxMQP.png);
+    background: url(assets/triggers.png);
     opacity: 0;
 }
 
@@ -23,7 +23,7 @@
 .edit .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://i.imgur.com/c6QaJ4i.png) no-repeat;
+    background: url(assets/bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .edit .touchpad.pressed {
-    background: url(https://i.imgur.com/hl7qtYo.png) no-repeat center;
+    background: url(assets/touchpad.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -92,7 +92,7 @@ background-position: 0 -70px;
 }
 
 .edit .back, .edit .start {
-    background: url(https://i.imgur.com/4aO7GLZ.png);
+    background: url(assets/start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -127,7 +127,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://i.imgur.com/3HsIcU6.png);
+    background: url(assets/face.png);
 }
 
 .edit .button.pressed {
@@ -167,7 +167,7 @@ background-position: 0 -70px;
 
 .edit .stick {
     position: absolute;
-    background: url(https://i.imgur.com/TgKq0zQ.png);
+    background: url(assets/sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -199,7 +199,7 @@ background-position: 0 -70px;
 }
 
 .edit .face {
-    background: url(https://i.imgur.com/thMoWjr.png);
+    background: url(assets/dpad.png);
     position: absolute;
 }
 
